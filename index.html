@@ -22,62 +22,46 @@
 
 <body>
     <main class="resume-contents">
-        <section class="left-section">
-            <div class="left-section-contents">
-                <div class="profile">
-                    <img class="profile-image" src="img/profile-image.jpg" alt="Profile image">
-                    <p class="name">Quintiliano Nery</p>
-                    <p class="profession">Quality Assurance</p>
-                </div>
-                <div class="contact-info">
-                    <p class="left-title">Contatos </p>
-                    <ul>
-                        <li><i class="fa fa-envelope"></i>quintiliano1995@gmail.com
-                        </li>
-                        <li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/quintilianonery/">quintilianonery</a>
-                            </i>
-                        </li>
-                        <li><i class="fa fa-github"></i><a href="https://github.com/QuintilianoNery">QuintilianoNery</a>
-
-
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills">
-                    <p class="left-title">hard skills</p>
-                    <ul>
-                        <li>
-                            <p>Linux, Windows</p>
-                        </li>
-                        <li>
-                        <li>
-                            <p>JavaScript, VueJS</p>
-                        </li>
-                        <li>
-                            <p>HTML5 & CSS3</p>
-                        </li>
-                        <li>
-                            <p>SQL, Postgres, MongoDB</p>
-                        </li>
-                        <li>
-                            <p>Git & GitHub</p>
-                        </li>
-                        <li>
-                            <p>Testes manuais</p>
-                            <p>Testes Automatizados</p>
-                            <p>Testes Automatizados</p>
-                            <p>Testes de API</p>
-                            <p>Postmam, Cypress, Robot, Appium, Python</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        <aside class="left-section">
+            <header class="profile">
+                <img class="profile-image" src="img/profile-image.jpg" alt="Foto de Quintiliano Nery">
+                <h1 class="name">Quintiliano Nery</h1>
+                <h2 class="profession">Quality Assurance</h2>
+            </header>
+            <nav class="contact-info" aria-label="Contatos">
+                <h3 class="left-title">Contatos</h3>
+                <ul>
+                    <li><i class="fa fa-envelope"></i>
+                        <a href="mailto:quintiliano1995@gmail.com">quintiliano1995@gmail.com</a>
+                    </li>
+                    <li><i class="fa fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/quintilianonery/">quintilianonery</a>
+                    </li>
+                    <li><i class="fa fa-github"></i>
+                        <a href="https://github.com/QuintilianoNery">QuintilianoNery</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="skills">
+                <h3 class="left-title">Hard Skills</h3>
+                <ul>
+                    <li>Linux, Windows</li>
+                    <li>JavaScript, VueJS</li>
+                    <li>HTML5 & CSS3</li>
+                    <li>SQL, Postgres, MongoDB</li>
+                    <li>Git & GitHub</li>
+                    <li>
+                        Testes manuais, Testes Automatizados, Testes de API<br>
+                        Postman, Cypress, Robot, Appium, Python
+                    </li>
+                </ul>
+            </section>
+        </aside>
 
         <section class="right-section">
-            <div class="right-section-contents">
+            <article class="right-section-contents">
                 <section class="about gap">
-                    <div class="right-title">Quer me conhecer um pouco? </div>
+                    <h2 class="right-title">Quer me conhecer um pouco?</h2>
                     <p class="about-me-contents">
                         Sou formado em Licenciatura em Informática pelo Instituto Federal de Educação, Ciência e
                         Tecnologia do Espírito Santo, <br>
@@ -91,81 +75,85 @@
                 </section>
 
                 <section class="experience gap">
-                    <div class="right-title">Onde trabalhei?</div>
-                    <div class="experience-contents">
-                        <div class="exp-left">
-                            <p class="exp-company-name">Take Blip</p>
-                            <p class="exp-time-period">03/2022 - Atualmente</p>
-                        </div>
-                        <div class="exp-right">
-                            <p class="exp-position">QA</p>
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="experience-contents">
-                        <div class="exp-left">
-                            <p class="exp-company-name">Paschoalotto SA</p>
-                            <p class="exp-time-period">06/2021 - 03/2022</p>
-                        </div>
-                        <div class="exp-right">
-                            <p class="exp-position">QA Analyst</p>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="experience-contents">
-                        <div class="exp-left">
-                            <p class="exp-company-name">Tecsystem</p>
-                            <p class="exp-time-period">03/2013 - 06/2021</p>
-                        </div>
-                        <div class="exp-right">
-                            <p class="exp-position">QA Analyst</p>
-                            </p>
-                        </div>
-                    </div>
+                    <h2 class="right-title">Onde trabalhei?</h2>
+                    <ul>
+                        <li class="experience-contents">
+                            <div class="exp-left">
+                                <strong class="exp-company-name">Take Blip</strong>
+                                <span class="exp-time-period">03/2022 - Atualmente</span>
+                            </div>
+                            <div class="exp-right">
+                                <span class="exp-position">QA</span>
+                            </div>
+                        </li>
+                        <li class="experience-contents">
+                            <div class="exp-left">
+                                <strong class="exp-company-name">Paschoalotto SA</strong>
+                                <span class="exp-time-period">06/2021 - 03/2022</span>
+                            </div>
+                            <div class="exp-right">
+                                <span class="exp-position">QA Analyst</span>
+                            </div>
+                        </li>
+                        <li class="experience-contents">
+                            <div class="exp-left">
+                                <strong class="exp-company-name">Tecsystem</strong>
+                                <span class="exp-time-period">03/2013 - 06/2021</span>
+                            </div>
+                            <div class="exp-right">
+                                <span class="exp-position">QA Analyst</span>
+                            </div>
+                        </li>
+                    </ul>
                 </section>
-                <!-- Parei atualizando meu currículo aqui -->
+
                 <section class="education gap">
-                    <div class="right-title">O que venho estudando?</div>
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">EBAC</p>
-                            <p class="educationp-time-period">2021-2022</p>
-                        </div>
-                    </div>
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">IFES</p>
-                            <p class="educationp-time-period">2014-2018</p>
-                        </div>
-                    </div>
+                    <h2 class="right-title">O que venho estudando?</h2>
+                    <ul>
+                        <li class="education-contents">
+                            <div class="education-left">
+                                <strong class="education-school-name">EBAC</strong>
+                                <span class="educationp-time-period">2021-2022</span>
+                            </div>
+                        </li>
+                        <li class="education-contents">
+                            <div class="education-left">
+                                <strong class="education-school-name">IFES</strong>
+                                <span class="educationp-time-period">2014-2018</span>
+                            </div>
+                        </li>
+                    </ul>
                 </section>
 
                 <section class="awards gap">
-                    <div class="right-title">Outros Cursos</div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">QA Ninja</p>
-                            <p class="awards-time-period">2022</p>
-                        </div>
-                        <div class="awards-right">
-                            <p class="awards-name">Testes Robot Appium</p>
-                        </div>
-                    </div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">Treina Web</p>
-                            <p class="awards-time-period">2022</p>
-                        </div>
-                        <div class="awards-right">
-                            <p class="awards-name">Teste de Software Intermediário</p>
-
-                        </div>
-                    </div>
+                    <h2 class="right-title">Outros Cursos</h2>
+                    <ul>
+                        <li class="awards-contents">
+                            <div class="awards-left">
+                                <strong class="awards-company-name">QA Ninja</strong>
+                                <span class="awards-time-period">2022</span>
+                            </div>
+                            <div class="awards-right">
+                                <span class="awards-name">Testes Robot Appium</span>
+                            </div>
+                        </li>
+                        <li class="awards-contents">
+                            <div class="awards-left">
+                                <strong class="awards-company-name">Treina Web</strong>
+                                <span class="awards-time-period">2022</span>
+                            </div>
+                            <div class="awards-right">
+                                <span class="awards-name">Teste de Software Intermediário</span>
+                            </div>
+                        </li>
+                    </ul>
                 </section>
-            </div>
+            </article>
         </section>
     </main>
+    <footer>
+        <p style="text-align:center; color:#888; font-size:0.9em; margin:24px 0;">© 2025 Quintiliano Nery</p>
+    </footer>
 </body>
 
 </html>
