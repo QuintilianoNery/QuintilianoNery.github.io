@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quintiliano Nery - Quality Assurance</title>
+  <title>QA - Projetos</title>
 
   <!-- Icone da page  -->
-  <link rel="icon" href="img/icon.ico" type="image/x-icon">
+  <link rel="icon" href="../img/icon.ico" type="image/x-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,28 +17,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+
   <!-- Menu de navegação -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
       <div class="nav-brand">
       </div>
       <div class="nav-menu" id="nav-menu">
-        <a href="index.html" class="nav-link active" data-section="home">
+        <a href="../index.html" class="nav-link" data-section="home">
           <i class="fa fa-home"></i>
           <span>Home</span>
         </a>
-        <a href="./pages/experiencia.html" class="nav-link" data-section="experiencia">
+        <a href="experiencia.html" class="nav-link" data-section="experiencia">
           <i class="fa fa-briefcase"></i>
           <span>Experiência</span>
         </a>
-        <a href="./pages/formcao.html" class="nav-link" data-section="formacao">
+        <a href="formcao.html" class="nav-link" data-section="formacao">
           <i class="fa fa-graduation-cap"></i>
           <span>Formação</span>
         </a>
-        <a href="./pages/projetos.html" class="nav-link" data-section="projetos">
+        <a href="projetos.html" class="nav-link active" data-section="projetos">
           <i class="fa fa-code"></i>
           <span>Projetos</span>
         </a>
@@ -50,7 +51,7 @@
     <aside class="left-section">
       <header class="profile">
         <figure>
-          <img class="profile-image" src="img/profile-image.jpg" alt="Foto de perfil de Quintiliano Nery">
+          <img class="profile-image" src="../img/profile-image.jpg" alt="Foto de perfil de Quintiliano Nery">
         </figure>
         <h1 class="name">Quintiliano Nery</h1>
         <h2 class="profession">Quality Assurance | CTFL 4.0</h2>
@@ -117,19 +118,27 @@
     <!-- Conteúdo principal -->
     <section class="right-section">
       <article class="right-section-contents">
-        <!-- Título para o artigo, escondido visualmente para manter o design -->
-        <h2 class="sr-only">Resumo Profissional</h2>
-        <section class="about gap">
-          <h2 class="right-title">Quem é o QA Quintiliano?</h2>
-           <p class="about-me-contents">
-                        Sou um QA Engineer com mais de 5 anos de experiência em Qualidade de Software e mais de 10 anos na área de tecnologia, 
-                        formado em Licenciatura em Informática pelo IFES. Tenho conhecimento em diversos segmentos, onde aplico as melhores práticas de testes automatizados,
-                        utilizando ferramentas como Cypress, Robot, Appium, WebdriverIO, Browserstack, Robot Framework, JMeter, Grafana, Elastic Search. <br><br>
-
-                        Meu objetivo é garantir que os produtos entregues aos clientes sejam de alta qualidade, confiabilidade e usabilidade, atuando em colaboração
-                         com todo o time de desenvolvimento, e promovendo a cultura de qualidade dentro da equipe. Sou apaixonado por inovação e aprendizado contínuo,
-                          e busco sempre me atualizar sobre as novas tecnologias e tendências do mercado de testes.
-                    </p>
+        <!-- Seção Projetos -->
+        <section id="projetos" class="projects gap section-content">
+          <h2 class="right-title">Projetos em Quality Assurance</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-header">
+                <h3 class="project-title">Framework de Automação Web</h3>
+                <i class="fa fa-globe project-icon"></i>
+              </div>
+              <p class="project-description">
+                Desenvolvimento de framework customizado para testes automatizados utilizando Cypress e Page Object Model, reduzindo o tempo de execução dos testes em 40%.<b>
+                test
+              </p>
+              <div class="project-technologies">
+                <span class="tech-tag">Cypress</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Page Object Model</span>
+                <span class="tech-tag">CI/CD</span>
+              </div>
+            </article>
+          </div>
         </section>
       </article>
     </section>
